@@ -62,18 +62,18 @@ function Checkout() {
       const taxRate = calculateTaxRate(item);
       const priceAfterDiscount = Math.round(item.product.price * (1 - item.product.discountPercentage / 100));
       const itemTotal = priceAfterDiscount * item.quantity * (1 + taxRate);
-      return (itemTotal + amount);
+      return itemTotal + amount;
     },
     0
-  );
+  ).toFixed(2);
 
   //tax price
   const taxprice = items.reduce(
     (amount, item) => {
       const taxRate = calculateTaxRate(item);
       const priceAfterDiscount = Math.round(item.product.price * (1 - item.product.discountPercentage / 100));
-      const itemTotal = priceAfterDiscount * item.quantity * ( taxRate);
-      return itemTotal;
+      const itemTotal = (priceAfterDiscount * item.quantity * taxRate);
+      return Number((itemTotal).toFixed(2));
     },
     0
   );
