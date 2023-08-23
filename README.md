@@ -20,4 +20,4 @@ Step 2 :use command npm start in cd frontend to run the react redux app.
 ## For admin dashboard
 Email: dummy@gmail.com
 Password: Qwerty123
-## All the api keys have been stored in Plotline-Ecommerce-Backend\ecommerceweb\backend\services\.env and will be automatically enabled.
+## All the api keys have been stored in Plotline-Ecommerce-Backend\ecommerceweb\backend\services\ .env and will be automatically enabled.
