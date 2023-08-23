@@ -1,6 +1,6 @@
-Submission by: Kunal Roy Choudhury(RA2011003010834)
+
 # Billing System Backend
-This is a Node.js server for a billing system that provides seamless functionality and a user-friendly experience. The server exposes features via APIs based on REST principles and handles different scenarios that may arise during billing processes.
+This is a Node.js server along with the frontend created with react redux for a billing system that provides seamless functionality and a user-friendly experience. The server exposes features via APIs based on REST principles and handles different scenarios that may arise during billing processes.
 
 ## Features
 The server has endpoints to enable the following functionalities for users:
@@ -14,3 +14,10 @@ The server has endpoints to enable the following functionalities for users:
 The server also has an additional API for admin to see all the orders.
 ## Tax Calculation
 The server integrates tax calculation based on the price range of products and services using the given rules in the problem statement.
+## How to run
+After installation of all dependencies,
+Step 1 : use command npm run dev followed by npm start in cd backend to run the server.
+Step 2 :use command npm start in cd frontend to run the react redux app.
+## For admin dashboard
+Email: dummy@gmail.com
+Password: Qwerty123
