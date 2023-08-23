@@ -1,7 +1,6 @@
-
+Submission by Kunal Roy Choudhury(RA2011003010834)
 # Billing System Backend
-This is a Node.js server along with the frontend created with react redux for a billing system that provides seamless functionality and a user-friendly experience. The server exposes features via APIs based on REST principles and handles different scenarios that may arise during billing processes.
-
+This is a Node.js server along with the frontend created with react redux for a billing system that provides seamless functionality and a user-friendly experience. The backend server has been connected to MongoDB Atlas as database.The same collection is also availabe in ecommerceweb\backend\data.json.The server exposes features via APIs based on REST principles and handles different scenarios that may arise during billing processes. The api calls are in ecommerceweb\backend\routes.
 ## Features
 The server has endpoints to enable the following functionalities for users:
 - Create an account.
@@ -21,3 +20,4 @@ Step 2 :use command npm start in cd frontend to run the react redux app.
 ## For admin dashboard
 Email: dummy@gmail.com
 Password: Qwerty123
+## All the api keys have been stored in Plotline-Ecommerce-Backend\ecommerceweb\backend\services\.env and will be automatically enabled.
